@@ -1,0 +1,100 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.background{
+  background: #d8d8d8;
+  width: 1000px;
+  height: 550px;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+     
+}
+
+.card{
+  padding: 20px;
+  background: black;
+  border-radius: 15px;
+  color: #ffffff;
+  box-shadow: 5px 4px 11px -3px #545555;
+  margin: 7px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.Objetivo{
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  background: black;
+  border-radius: 15px;
+  color: #ffffff;
+  box-shadow: 5px 4px 11px -3px #545555;
+  height: 50%;
+  font-size: 12px;
+
+}
+
+
+
+
+.fotoPerfil{
+  height: 180px;
+  width: 180px;
+  border-radius: 100%;
+  box-shadow: 5px 4px 11px -3px #545555;
+  border: solid 5px rgb(87, 216, 1);
+  
+}
+
+.left{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.right{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+.Nome{
+  padding: 10px;
+  background: black;
+  border-radius: 15px;
+  color: #ffffff;
+  box-shadow: 5px 4px 11px -3px #545555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.Info{
+  padding-left: 25px;
+  background: black;
+  border-radius: 15px;
+  color: #ffffff;
+  box-shadow: 5px 4px 11px -3px #545555; 
+  width: 100%;
+ 
+}
+
+.Frase{
+  padding: 10px;
+  background: black;
+  border-radius: 15px;
+  color: #ffffff;
+  box-shadow: 5px 4px 11px -3px #545555;
+  width: 100%;
+}
